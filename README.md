@@ -12,9 +12,3 @@
     <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
-
-<p align="center">
-
-[![GitHub Contribution Graph](https://github-contribution-growth-graph.qkitzero.xyz/graph/contributions?user=iganeshjogi&theme=dark&size=small)](https://github.com/qkitzero/github-contribution-growth-graph)
-
-</p>
