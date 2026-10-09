@@ -13,7 +13,9 @@
   </a>
 </p>
 
-
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iganeshjogi&theme=github-compact&hide_border=true&area=true" alt="GitHub contribution activity graph" />
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=iganeshjogi&theme=github-compact&hide_border=true&area=true"
+    alt="GitHub contribution activity graph"
+  />
 </p>
