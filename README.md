@@ -14,8 +14,7 @@
 </p>
 
 <p align="center">
-  <img
-    src="https://github-contribution-growth-graph.qkitzero.xyz/graph/contributions?user=iganeshjogi&theme=dark"
-    alt="GitHub Contribution Graph"
-  />
+
+[![GitHub Contribution Graph](https://github-contribution-growth-graph.qkitzero.xyz/graph/contributions?user=iganeshjogi&theme=dark&size=small)](https://github.com/qkitzero/github-contribution-growth-graph)
+
 </p>
