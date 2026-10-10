@@ -1,0 +1,31 @@
+name: Update Dynamic Contribution Grid
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # Updates automatically every 6 hours
+  workflow_dispatch: # Allows you to manually click "Run" at any time
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Generate Contribution Grid Image
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: iganeshjogi
+          outputs: |
+            dist/contribution-grid.svg?palette=github-light
+
+      - name: Push Generated Assets to Output Branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: assets
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
